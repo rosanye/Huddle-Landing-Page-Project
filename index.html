@@ -4,10 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
-
+  <script src="https://kit.fontawesome.com/50c69481c5.js" crossorigin="anonymous"></script>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -15,21 +17,41 @@
   </style>
 </head>
 <body>
-  <header>
-    <h1>Huddle</h1>
-  </header>
-  <div class="container">
-    <h2>Build The Community Your Fans Will Love</h2>
+  <nav class="navbar">
+    <a class="navbar-brand" href=""><img class="logo"src="images/logo.svg" alt="Huddle logo"></a>
+    <img class="main-img" src="images/illustration-mockups.svg" alt="computer and mobile device mockups">
+  </nav>
+  <main>
+    <div class="row">
+      <div class="col-lg-7">
+        <img class="main-img" src="images/illustration-mockups.svg" alt="computer and mobile device mockups">
+      </div>
+      <div class="col-lg-5">
+        <h1>Build The Community Your Fans Will Love</h1>
 
-    <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
-    Create connections with your users as you engage in genuine discussion.</p>
-    <a class="btn" href="#">Register</a>
-  </div>
+        <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+          Create connections with your users as you engage in genuine discussion.</p>
+        <button type="button">Register</button>
+      </div>
+    </div>
+    <section class="icons-area">
+      <a class= "icons" href="https://facebook.com"><i class="fab fa-facebook fa-lg"></i></a>
+
+      <a class= "icons" href="https://twitter.com"><i class="fab fa-twitter fa-lg"></i></a>
+
+      <a class="icons" href="https://instagram.com"><i class="fab fa-instagram fa-lg"></i></a>
+    </section>
+  </main>
+
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Rosany Espinal</a>.
     </p>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

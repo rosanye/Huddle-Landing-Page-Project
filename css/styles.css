@@ -1,0 +1,112 @@
+body {
+  background-color: hsl(257, 40%, 49%);
+  color: white;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+nav {
+  background-image: url('../images/bg-mobile.svg');
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 0.725rem;
+  line-height: 1.5;
+}
+
+button {
+  color: hsl(257, 40%, 49%);
+  display: block;
+  background-color: white;
+  border-radius: 40px;
+  font-size: 0.7rem;
+  width: 65%;
+  padding: 10px;
+  margin: 20px auto 50px auto;
+}
+
+main {
+ margin: 20px 50px;
+}
+
+footer {
+ margin: 30px auto 20px auto;
+}
+
+main .main-img {
+  display: none;
+}
+
+.logo {
+ margin: 30px auto 50px auto;
+ width: 80%;
+}
+
+.main-img {
+ margin: 5px auto;
+ width: 100%;
+}
+
+.icons {
+ margin-right: 5px;
+}
+
+/***** DESKTOP STYLES *****/
+
+@media only screen and (min-width: 375px){
+
+  body {
+    background-image: url('../images/bg-desktop.svg');
+    background-size: auto;
+    margin: 0 20px;
+  }
+
+  nav {
+    background-image: none;
+  }
+
+  h1 {
+    font-size: 1.975rem;
+    text-align: left;
+  }
+
+  p {
+    font-size: 0.975rem;
+    text-align: left;
+  }
+
+  button {
+    font-size: 0.975rem;
+    position: absolute;
+    left: 0;
+    width: 40%;
+  }
+
+  nav .main-img {
+    display: none;
+  }
+
+  main .main-img {
+    display: inline-block;
+  }
+
+  .col-lg-5 {
+  margin-top: 60px;
+  }
+
+  .icons-area {
+    text-align: right;
+    margin: 20px auto;
+  }
+
+  .icons {
+    margin-right: 10px;
+  }
